@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link href="./styles/mystyle.css" rel="stylesheet">
+</head>
+<body>
+    <!--This is a portfolio website, a flexbox contain a grid box-->
+    
+        <div class="headersection">
+            
+            <h1>My Recent Works</h1>
+            <p>Here are my recent projects. Screenshot: Windows key + Shift + S</p>
+            
+            
+        </div>
+       
+        <div class="flex-container">
+            <div class="dim project">R Mondrian Painting</div>
+            <div class="project"> <a href="https://zqwz888.github.io/personalprogramming/" target="_blank"> <img src="./images/personal.png" alt=""></a></div>
+            <div class="dim project">Programing Skillset</div>
+            <div class="dim project">Travel and Photos</div>
+            <div class="dim project">W3shools Howto</div>
+            <div class="dim project">paintings</div>
+            <div class="dim project">Online Shop</div>
+            <div class="dim project">myBlog</div>
+            <div class="dim project">Object Unkowns</div>
+            <div class="dim project">Object Unkown</div>
+        </div>
+        <footer id="footer">All rights reserved&reg, plus year auto</footer>
+    </div>
+    <script>
+        const d = new Date();
+
+        document.getElementById("footer").innerHTML = "All rights reserved &reg " + d.getFullYear();
+        
+    </script>
+</body>
+</html>

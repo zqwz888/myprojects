@@ -1,0 +1,74 @@
+
+    
+
+.headersection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 40vh;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("../images/wave.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+
+}
+/*div.headersection {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}*/
+div.logo {
+    width: 114;
+    border-radius: 50%;
+}
+div.para{
+    text-align: center;
+    /*color: red;*/
+}
+.horserider {
+    /*padding: 10px;*/
+    margin: 10px 20px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-container{
+
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 75%;
+    margin: auto;
+}
+.project {
+    
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+   margin: 20px; 
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}
+
+footer {
+    align-self: flex-end;
+    text-align: center;
+    margin: 20px;
+}
+body{
+    height: 100vh;
+}
+ 
+img {
+    width: 100%;
+    height: auto;
+}
+.dim {
+    background-color: aqua;
+    opacity: 0.4;
+}
